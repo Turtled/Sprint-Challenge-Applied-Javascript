@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    The DOM is the Document Object Model and it's how javascript represents elements on the page, providing functionality such as editing, deleting or creating elements.
+
 2. What is an event?
+
+    An event is an event that triggers when a particular thing happens (for example "click" for when the user clicks). To use them, we can tell javascript that we want to listen for a particular event, and give it a callback to execute when that event happens.
 
 3. What is an event listener?
 
+    An event listener is when we tell javascript that we want to listen for a particular event, and give it a callback to execute when that event happens.
+
 4. Why would we convert a NodeList into an Array?
 
+    To have access to array methods like .forEach, .map, etc.
+
 5. What is a component?
+
+    A component is really just a bunch of dynamically created elements.
 
 ### Git Set up
 
